@@ -16,7 +16,7 @@ namespace RankenConcernSystem.Models
         public DateTime DateOfMake { get; set; }
 
         [Required]
-        [Display(Name = "Name Of Concern Maker")]
+        [Display(Name = "Person With Concern")]
         public string ConMakerName { get; set; }
 
 

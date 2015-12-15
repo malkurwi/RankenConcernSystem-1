@@ -4,53 +4,53 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Concerns Page..</h2>
 
-<p>
+<p style="font-size:20px; font-weight:bold">
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
-    <tr>
-        <th>
+    <tr style="border-bottom: 1.1px solid chocolate; text-align:center">
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.DateOfMake)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.ConMakerName)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.GetRelationship)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.GetReportingMethod)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.StudentID)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.ConMakerPhone)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.ConMakerEmail)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.ReasonConMade)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.NameConRecieved)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.Details)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.ActionMade)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.NameOfActionMaker)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.ResultsOfCon)
         </th>
-        <th>
+        <th style="font-size:15px; border-right: 2px solid chocolate; text-align:center; line-height:13px">
             @Html.DisplayNameFor(model => model.DateOfResult)
         </th>
         <th></th>
@@ -58,49 +58,49 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.DateOfMake)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.ConMakerName)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.GetRelationship)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.GetReportingMethod)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.StudentID)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.ConMakerPhone)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.ConMakerEmail)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.ReasonConMade)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.NameConRecieved)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.Details)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.ActionMade)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.NameOfActionMaker)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.ResultsOfCon)
         </td>
-        <td>
+        <td style="font-size:10px; border-right: 2px solid chocolate; text-align:center">
             @Html.DisplayFor(modelItem => item.DateOfResult)
         </td>
-        <td>
+        <td style="font-size:10px; color:chocolate">
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
             @Html.ActionLink("Details", "Details", new { id=item.ID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.ID })
